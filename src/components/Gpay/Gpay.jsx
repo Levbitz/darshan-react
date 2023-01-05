@@ -33,10 +33,10 @@ function Gpay() {
           transactionInfo: {
             totalPriceStatus: "FINAL",
             totalPriceLabel: "Total",
-              totalPrice: "1",
-            currencyCode:"IND",
-            
-             countryCode: "US",
+            totalPrice: "1",
+            currencyCode: "IND",
+
+            countryCode: "US",
           },
         }}
         onLoadPaymentData={(paymentRequest) => {
@@ -48,3 +48,10 @@ function Gpay() {
 }
 
 export default Gpay;
+
+//component,
+//file structure
+// useState hook
+//props
+//conditonal rendering
+// useEffect--- to
