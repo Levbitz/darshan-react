@@ -319,6 +319,13 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.16.12.tgz#31197bb509049b63c059c4808ac58e66fdff7479"
   integrity sha512-iPYKN78t3op2+erv2frW568j1q0RpqX6JOLZ7oPPaAV1VaF7dDstOrNw37PVOYoTWE11pV4A1XUitpdEFNIsPg==
 
+"@google-pay/button-react@^3.0.5":
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/@google-pay/button-react/-/button-react-3.0.5.tgz#8e97c1ddf2f7d213ff22350bd41f88b7c6d78787"
+  integrity sha512-eWlDnGLLJ3rpa2B2LYtiRkrEGAdskaS3HIlzEGjRpTOC+PNJ6e8xhJGpJX4PVSjcdW5N5PqRmB64/B0LaviN0A==
+  dependencies:
+    "@types/googlepay" "^0.6.3"
+
 "@jridgewell/gen-mapping@^0.1.0":
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/@jridgewell/gen-mapping/-/gen-mapping-0.1.1.tgz#e5d2e450306a9491e3bd77e323e38d7aff315996"
@@ -358,6 +365,11 @@
   dependencies:
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
+
+"@types/googlepay@^0.6.3":
+  version "0.6.4"
+  resolved "https://registry.yarnpkg.com/@types/googlepay/-/googlepay-0.6.4.tgz#e0b06ae1f12496c4fa43e52d35e76411dbbee135"
+  integrity sha512-PTt/UCllzl8z5HmhymPpSj6uENZvVKZvCBYdDVmbBVJnLStitxtWrterAOQZkKGlqVdzxNXYeif5hOAMNMS5mw==
 
 "@types/prop-types@*":
   version "15.7.5"
