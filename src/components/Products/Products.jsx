@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function Products() {
   const [pdtList, setPdtList] = useState([]);
@@ -26,7 +27,7 @@ function Products() {
 
   return (
     <div className="row">
-      <h3>Welcome to My Shop</h3>
+      <h5>Welcome to My Shop</h5>
       {loading ? (
         <h1>Loading...</h1>
       ) : (
@@ -35,10 +36,12 @@ function Products() {
             {pdtList.map((pdt) => {
               const { id, title, image, price } = pdt;
               return (
-                <div className="col l3 s6">
-                  <img height={100} width={100} src={image} alt="" />
-                  <p>{title.slice(0, 15)}...</p>
-                  <p>{price}</p>
+                <div key={id} className="col l3 s6">
+                  <Link to={`/details/${id}`}>
+                    <img height={100} width={100} src={image} alt="" />
+                    <p>{title.slice(0, 15)}...</p>
+                    <p>{price}</p>
+                  </Link>
                 </div>
               );
             })}
