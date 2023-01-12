@@ -1,4 +1,5 @@
 import React from "react";
+import ContactPage from "../../components/ContactForm/ContactPage";
 
 function AboutUsPage() {
   return (
@@ -18,6 +19,7 @@ function AboutUsPage() {
         dolore iure itaque eveniet fugit dolor placeat, ab voluptate fuga
         voluptatum consequuntur minima obcaecati illum?
       </p>
+      <ContactPage />
     </div>
   );
 }
